@@ -1,0 +1,26 @@
+.about-me-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-container h2{
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    height: auto;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.about-me-container p{
+    padding: 0 10%;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 15px;
+}
