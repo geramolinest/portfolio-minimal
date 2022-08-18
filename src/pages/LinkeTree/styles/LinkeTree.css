@@ -69,7 +69,7 @@ body, html{
     display: flex;
     position: absolute;
     right: 15px;
-    z-index: 1;
+    z-index: 3;
 }
 
 .icon-open-menu:hover{
@@ -88,6 +88,7 @@ body, html{
     align-items: center;
     align-content: center;
     justify-content: center;
+    z-index: 2;
 }
 .header-body ul{
     display: flex;
@@ -113,6 +114,9 @@ body, html{
     display: none;
 }
 
+.header-page-section ul>li>a:hover{
+    cursor: pointer;
+}
 
 
 @media (min-width: 1000px) {
